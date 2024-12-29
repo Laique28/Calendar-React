@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/github.io/Calendar-React/static/css/main.b8b839d4.css",
-    "main.js": "/github.io/Calendar-React/static/js/main.5aa884f4.js",
+    "main.js": "/github.io/Calendar-React/static/js/main.e21cd83f.js",
     "static/js/496.9b71550c.chunk.js": "/github.io/Calendar-React/static/js/496.9b71550c.chunk.js",
     "static/media/logos.gif": "/github.io/Calendar-React/static/media/logos.e4d5f407c96354ca7ccf.gif",
     "static/media/pngtree-vector-logout-icon-png-image_4184683.jpg": "/github.io/Calendar-React/static/media/pngtree-vector-logout-icon-png-image_4184683.dc5f321b2f751e71435b.jpg",
     "index.html": "/github.io/Calendar-React/index.html",
     "static/media/plus.svg": "/github.io/Calendar-React/static/media/plus.8f3ab9f72337618f2823670542a3a8e4.svg",
     "main.b8b839d4.css.map": "/github.io/Calendar-React/static/css/main.b8b839d4.css.map",
-    "main.5aa884f4.js.map": "/github.io/Calendar-React/static/js/main.5aa884f4.js.map",
+    "main.e21cd83f.js.map": "/github.io/Calendar-React/static/js/main.e21cd83f.js.map",
     "496.9b71550c.chunk.js.map": "/github.io/Calendar-React/static/js/496.9b71550c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8b839d4.css",
-    "static/js/main.5aa884f4.js"
+    "static/js/main.e21cd83f.js"
   ]
 }
