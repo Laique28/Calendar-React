@@ -39,7 +39,7 @@ function App() {
           <Month month={currenMonth} /></>} */}
           {/* <Sidebar />
           <Month month={currenMonth} /> */}
-          <>
+          <BrowserRouter>
             <Routes>
               <Route path="/" element={<Login />} />
               <Route path="/main" element={<><Sidebar /><Month month={currenMonth} /></>} />
