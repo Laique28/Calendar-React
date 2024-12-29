@@ -10,7 +10,7 @@ const labelsClasses = [
   "purple",
 ];
 export default function EventModal() {
-  const [cookies, setCookie, removeCookie] = useCookies(['login']);
+  const [cookies] = useCookies(['login']);
   const [admin, setAdmin] = useState('')
   useEffect(() => {
     const login = cookies.login;

@@ -32,6 +32,6 @@ module.exports = {
   variants: {
     extend: {},
   },
-  base: "/Calendar_React_App/",
+
   plugins: [require("@tailwindcss/forms")],
 }

@@ -4,12 +4,12 @@ import lo from '../assets/pngtree-vector-logout-icon-png-image_4184683.jpg'
 import GlobalContext from "../context/GlobalContext";
 import { Link } from "react-router-dom";
 import { useCookies } from 'react-cookie';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 export default function CreateEventButton() {
   const { setShowEventModal } = useContext(GlobalContext);
 
   const [loginUser, setLoginUser] = useState('')
-  const [cookies, setCookie, removeCookie] = useCookies(['login']);
+  const [cookies] = useCookies(['login']);
   const [admin, setAdmin] = useState('')
   useEffect(() => {
     const user = cookies.login;

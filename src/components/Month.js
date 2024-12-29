@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Day from "./Day";
-import { useCookies } from 'react-cookie';
+
 export default function Month({ month }) {
 
   return (
