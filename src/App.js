@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import "./App.css";
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { getMonth } from "./util";
 import CalendarHeader from "./components/CalendarHeader";
 import Sidebar from "./components/Sidebar";
@@ -39,13 +39,13 @@ function App() {
           <Month month={currenMonth} /></>} */}
           {/* <Sidebar />
           <Month month={currenMonth} /> */}
-          <HashRouter>
+          <>
             <Routes>
               <Route path="/" element={<Login />} />
               <Route path="/main" element={<><Sidebar /><Month month={currenMonth} /></>} />
             </Routes>
 
-          </HashRouter>
+          </BrowserRouter>
         </div>
       </div>
       <ToastContainer />
